@@ -1,0 +1,320 @@
+/* Style général */
+h1{
+  text-align:center;
+	font:bold 50px Calibri;
+}
+
+body{
+  background-color:#DEF4C6;
+  font:normal 15px Calibri;
+  width:100%;
+  margin:auto;
+}
+
+p{
+  margin-left: 25px;
+}
+
+h2
+{
+  margin-left: 10px;
+}
+
+
+
+
+
+/* Style de la page d'accueil */
+a{
+	color:#696969;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#FBF4E2;
+}
+
+
+.item{
+  border-radius:20px 0 20px 0;
+	background: #FBF4E2;
+  list-style-type:none;
+	display:inline-block;
+	font:bold 12px Calibri;
+	box-shadow:1px 1px 3px #777;
+  width: 100px;
+  text-align: center;
+  margin-top: 50px;
+  margin-right:20px;
+}
+
+.item:hover{
+  color:#FFFFFF;
+  background-color:#B1CF5F;
+}
+
+.records {
+  list-style-type: square;
+  margin-left: 100px;
+}
+
+.desc{
+  margin-right: 70px;
+}
+
+
+#co{
+  display: grid;
+  grid-template-columns: 10em 10em;
+  margin-left: 30%;
+  margin-top: -100px ;
+}
+
+
+
+
+
+/* Notre menu */
+.menu2{
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom:8em;
+  background-image: url(../images_css/banniere.jpg);
+  background-position: bottom;
+  border-radius: 20px;
+  height: 150px;
+  width: 800px;
+}
+
+.menu2 li{
+  font-size: 15px;
+  padding: 12px;
+  width: 140px;
+}
+
+
+
+
+
+/* Le footer de toutes nos pages */
+footer{
+	height:100px;
+  background-color:#696969;
+	color:#FFFFFF;
+}
+
+#footer{
+	height:100%;
+	padding:10px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+
+
+
+
+/* Le style de nos formulaires */
+form {
+    margin: auto;
+    width:300px;
+    padding: 1em;
+}
+
+.checkbox{
+	margin-left:50px;
+}
+
+#deco{
+  margin-left:100%;
+  width: 200px;
+}
+
+
+
+
+/* Animations lors du remplissage de notre formulaire */
+input {
+  width: 150px;
+  transition: width 2s ease;
+  padding:5px;
+  margin-top: 5px;
+  margin-left:5em;
+  border: 1px solid black;
+  border-radius:5px;
+}
+
+input:focus {
+  width: 200px;
+}
+
+input[type="submit"]{
+  width: 100px;
+  padding:10px;
+  margin-left:100px;
+  margin-bottom: 15px;
+  font-size:14px;
+  font-weight:bold;
+  display:grid;
+  grid-template-columns: 3fr 3fr;
+ }
+
+input[type="submit"]:hover{
+  color:#B1CF5F;
+}
+
+textarea{
+	margin-left: 20px;
+}
+
+
+
+
+/* Design de notre liste d'équipes etc... */
+.infos{
+  margin-left: 10px;
+  text-align: center;
+  background-color: #B1CF5F;
+  color:white;
+  border-radius: 0px 40px 0px 40px;
+  border: 2px solid white;
+  width: 275px;
+}
+
+.informations{
+  margin-left: 80px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#equipes{
+  margin-left: 250px;
+  margin: auto;
+  text-align: center;
+  background-color: #1B512D;
+  border-radius: 25px;
+  width: 350px;
+  color: #FFFFFF;
+}
+
+.RedimensionnerIm{
+  width:300px;
+  height:250px;
+
+}
+
+.listeEq{
+	color:black;
+  padding:5px;
+  margin-left:30px;
+  margin-top:30px;
+	list-style-type:none;
+  text-align: center;
+	display:inline-block;
+	border:1px solid black;
+	border-radius:5px;
+}
+
+.listeEq:hover{
+  border:3px solid black;
+}
+
+.nomEq:hover{
+  font-weight: bold;
+  color:#000000;
+}
+
+
+
+
+
+/* Style du contour d'un formulaire quelconque */
+fieldset{
+   border: 1px solid #696969;
+   border-radius:1em;
+   background-color: #B1CF5F;
+}
+
+legend{
+  -moz-margin-left:200px;
+  -webkit-margin:auto;
+  -o-margin:auto;
+  font-size:25px;
+  text-align: center;
+}
+
+.Text{
+    display:block;
+    width: 250px;
+    margin-left:2em;
+    font-size:18px;
+}
+
+
+
+
+
+/* Style de la zone de l'ajout d'une image et du bouton ajout */
+.ajoutImage{
+  width:250px;
+}
+
+.Boutonajout{
+  width: 190px;
+}
+
+.Boutons{
+  width: 300px;
+}
+
+
+
+
+
+/* Met une bordure et redimensionne l'image qui est sur la page de l'équipe */
+.logoEq{
+  border:2px black dotted;
+  width: 700px;
+  height: 650px;
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+
+
+
+
+/* Notre span lorsqu'un formulaire a une erreur */
+.erreur {
+  color:#FF0000;
+}
+
+
+
+
+
+/* Notre span lorsque l'équipe est inconnue */
+#inco{
+  margin-left:204px;
+  font-size: 2em;
+}
+
+
+
+
+
+/* Erreur dans un formulaire */
+.feedback{
+  color:#FFFFFF;
+  background-color:rgb(255,5,5,0.6);
+  padding:10px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  border-radius:10px;
+  text-align:center;
+  border:1px solid #F5ACA6;
+  width: 500px;
+  margin-left:auto;
+  margin-right: auto;
+}
